@@ -101,7 +101,7 @@ def solve(data_to_add,M=None):
     # M = np.column_stack((M,data_to_add))
     # print(type(M),type(data_to_add))
     # print(len(M[0]))
-    M = np.hstack((M,data_to_add))
+    M=np.hstack((M,data_to_add))
     # print(len(M[0]))
     # M.append(data_to_add)
     # print(len(M),len(M[0]))
